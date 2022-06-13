@@ -1,0 +1,32 @@
+# You've seen properties as things link hibernate.connection.url
+# server.port=
+# server.servlet.context-path=
+server:
+  port: 9005
+  servlet:
+    context-path: /
+# in a properties file, it would look like spring.application.name
+spring:
+  application:
+    name: BlockBusster-project
+
+  datasource:
+    driver-class-name: com.microsoft.sqlserver.jdbc.SQLServerDriver
+    url: jdbc:sqlserver://pokedexross.database.windows.net:1433;database=PokeProjectDB;user=RossHawk@pokedexross;password=Techno78;encrypt=true;trustServerCertificate=false;hostNameInCertificate=*.database.windows.net;loginTimeout=30;
+    username: RossHawk
+    password: Techno78
+  jpa:
+    database-platform: org.hibernate.dialect.SQLServerDialect
+    show-sql: true
+    hibernate:
+      ddl-auto: update
+
+# Default actuator gives us the health endpoint, we will add a few others
+management:
+  endpoints:
+    web:
+      exposure:
+        includes:
+          - "beans"
+          - "health"
+          - "info"
