@@ -8,13 +8,14 @@ server:
 # in a properties file, it would look like spring.application.name
 spring:
   application:
-    name: BlockBusster-project
+    name: BlockBusster_API
 
   datasource:
     driver-class-name: com.microsoft.sqlserver.jdbc.SQLServerDriver
-    url: jdbc:sqlserver://pokedexross.database.windows.net:1433;database=PokeProjectDB;user=RossHawk@pokedexross;password=Techno78;encrypt=true;trustServerCertificate=false;hostNameInCertificate=*.database.windows.net;loginTimeout=30;
-    username: RossHawk
-    password: Techno78
+    url: jdbc:sqlserver://;serverName=rossandjerry.database.windows.net;databaseName=BlockBussterDB;encrypt=true
+    # jdbc:sqlserver://;serverName=syntaxerrorjars-example.database.windows.net;databaseName=SyntaxErrorJarsDB;encrypt=true
+    username: Jerfstn
+    password: Fjerry41
   jpa:
     database-platform: org.hibernate.dialect.SQLServerDialect
     show-sql: true
