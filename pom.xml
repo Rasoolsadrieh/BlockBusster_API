@@ -79,10 +79,10 @@
                 <version>1.8.0</version>
                 <configuration>
                     <schemaVersion>V2</schemaVersion>
-                    <resourceGroup>BlockBusster_group</resourceGroup>
-                    <appName>BlockBusster</appName>
-                    <region>eastusa</region>
-                    <pricingTier>B1</pricingTier>
+                    <resourceGroup>BlockBusster</resourceGroup>
+                    <appName>blockbusster1</appName>
+                    <region>centralusa</region>
+                    <pricingTier>Free</pricingTier>
                     <runtime>
                         <os>windows</os>
                         <javaVersion>java8</javaVersion>
