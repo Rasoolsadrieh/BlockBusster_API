@@ -48,7 +48,7 @@ https://docs.google.com/document/d/1GDGMAWtaKeTs5jyoBrA__l0nNFGu01FDo3qKrQ75WiU/
 
 ## Collaborators
 - Jerry Faustin
-- Ross Seyedrasool Sadrieh
+- Seyedrasool Sadrieh
 - Maxwell Moord
 - Matthew Swaney
 - Jarrett McClenton
